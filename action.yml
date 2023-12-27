@@ -1,0 +1,15 @@
+# action.yml
+name: "nba download action"
+description: "downloads game data from the NBA and stores to filesystem"
+author: "stephenhu"
+inputs:
+  source:
+    description: "source file path"
+    required: true
+    default: "."
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/stephenhu/nbac:latest"
+brand:
+  icon: "layers"
+  color: "blue"
