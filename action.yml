@@ -9,7 +9,7 @@ inputs:
     default: "."
 runs:
   using: "docker"
-  image: "docker://ghcr.io/stephenhu/nbac:v1"
+  image: "docker://ghcr.io/stephenhu/nbac:latest"
 brand:
   icon: "layers"
   color: "blue"
